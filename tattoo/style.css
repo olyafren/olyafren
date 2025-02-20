@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Impact, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    letter-spacing: 1px;  /* Лёгкое разрежение текста по всему сайту */
+}
+header {
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 36px;
+    color: #ffcc00;
+}
+h3 {
+    font-size: 28px;      /* Увеличиваем заголовок */
+    text-align: center;   /* Центрируем текст */
+    color:white;          /* Темно-серый цвет */
+    margin-bottom: 10px;  /* Добавляем отступ снизу */
+}
+
+.intro-text {
+    font-size: 18px;      /* Читаемый размер текста */
+    text-align: center;   /* Центрируем текст */
+    color: white;          /* Чуть светлее, чем заголовок */
+    line-height: 1.5;     /* Делаем текст более воздушным */
+    margin-bottom: 20px;  /* Отступ перед контактами */
+}
+
+.contact-text {
+    font-size: 16px;      /* Чуть меньше, чем основной текст */
+    text-align: center;   /* Центрируем */
+    color: white;          /* Ещё светлее */
+}
+
+.contact-text a {
+    color: #ffcc00;    /* Синий цвет для ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold;     /* Делаем жирным */
+}
+
+.contact-text a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: #e6b800;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.tattoo-image {
+    width: 90%;         /* Картинка занимает 90% ширины экрана */
+    max-width: 300px;   /* Но не больше 300px, чтобы не была слишком большой */
+    height: auto;       /* Сохраняем пропорции */
+    display: block;     /* Убираем лишние пробелы вокруг */
+    margin: 20px auto;  /* Выравниваем по центру и даем немного отступа сверху/снизу */
+    border-radius: 10px; /* Скругляем углы */
+}
+footer {
+    text-align: center;   /* Центрируем текст */
+    padding: 5px;        /* Добавляем отступы сверху и снизу */
+    background-color: none; /* Светлый фон */
+    color:white;          
+    font-size: 14px;      /* Чуть меньше обычного текста */
+    margin-top: 5px;     /* Отступ сверху, чтобы отделить от основного контента */
+}
+
+.copyright {
+    margin-top: 5px;    /* Отступ перед копирайтом */
+    font-size: 12px;     /* Ещё меньше шрифт */
+    color: white;         /* Светло-серый цвет */
+}
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Изначально скрыта */
+}
+
+#scrollToTop:hover {
+    background-color: gray;
+}
+
+#scrollTopBtn.show {
+    opacity: 1;
+}
+body {
+    min-height: 150vh; /* Сделает страницу выше экрана */
+}
